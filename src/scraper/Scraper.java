@@ -35,6 +35,8 @@ public class Scraper {
      * @return String - Retorna uma representacao textual de um elemento.
      */
     public static String searchTextByClassName(Document document, String word) {
+        Elements doc = document.getElementsByClass(word);
+        if(doc == null || doc.text().trim().equals("")) return "Sem descricao";
         return document.getElementsByClass(word).first().text();
     }
 
