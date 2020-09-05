@@ -10,4 +10,5 @@ Resultado da execução:
 ---
 Caso queira extrair dados de um produto diferente, acesse [carrefour](https://www.carrefour.com.br/),
 pesquise por um produto e cole o link na seguinte linha de código da classe Main:  
-`17 String url = "https://www.carrefour.com.br/Maquina-de-Lavar-Electrolux-10-5Kg-Branca-Turbo-Economia-LAC11-110V/p/5112621";` . 
+`17 String url = "https://www.carrefour.com.br/Maquina-de-Lavar-Electrolux-10-5Kg-Branca-Turbo-Economia-LAC11-110V/p/5112621";`.  
+Obs.: Atente para que o produto esteja disponivel em estoque. 
